@@ -16,7 +16,7 @@ namespace ASP_NET_MVC5_CRUD
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Movies", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
